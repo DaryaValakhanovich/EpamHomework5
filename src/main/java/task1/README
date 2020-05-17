@@ -1,0 +1,7 @@
+Результат работы:
+Before Serialize:
+Employee{name='Bob', position=Position{name='programmer', salary=Salary{count=24,60}}, age=23}
+Employee{name='David', position=Position{name='programmer', salary=Salary{count=24,60}}, age=36}
+After Restored:
+Employee{name='Bob', position=Position{name='programmer', salary=Salary{count=0,00}}, age=0}
+Employee{name='David', position=Position{name='programmer', salary=Salary{count=0,00}}, age=0}
